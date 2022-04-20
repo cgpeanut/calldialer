@@ -1,0 +1,46 @@
+{
+<<<<<<< HEAD
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) makecall",
+            "request": "launch",
+            "mainClass": "com.cisco.webdialer.makecall",
+            "projectName": "vumc_webdialer_java",
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "env": {
+                "CUCM": "10.10.20.30",
+                "PROXY_USER": "CHANGEME",
+                "PASSWORD": "cisco123",
+                "USER_NAME": "agent1",
+                "DEVICE_NAME": "SEP6001FFFF0000",
+                "CALL_FROM": "1111",
+                "CALL_TO": "2222"
+            }
+        }
+    ]
+    }
+=======
+"version": "0.2.0",
+"configurations": [
+    {
+        "type": "java",
+        "name": "Debug (Launch) makecall",
+        "request": "launch",
+        "mainClass": "com.cisco.webdialer.makecall",
+        "projectName": "webdialer-java-sample",
+        "jdkPath": "${env:JAVA_HOME}/bin",
+        "env": {
+            "CUCM": "10.10.20.31",
+            "PROXY_USER": "admin",
+            "PASSWORD": "C!sc0DevNet",
+            "USER_NAME": "agent1",
+            "DEVICE_NAME": "SEP6001FFFF0000",
+            "CALL_FROM": "CHANGEME",
+            "CALL_TO": "CHANGEME"
+        }
+    }
+]
+}
+>>>>>>> 1eabb164328590493832552f2275660c971d5a51
